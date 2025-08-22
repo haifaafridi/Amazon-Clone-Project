@@ -6,7 +6,68 @@
 
 .navbar {
     background-color: #0F1111;
-    width: 100%;
     height: 60px;
     color: white;
+    display: flex;
+    align-items: center;
+    /* vertically center items */
+    padding: 0 15px;
+    /* add some side spacing */
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    /* centers the logo */
+}
+
+.logo {
+    background-image: url("amazonimg.png");
+    height: 50px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-logo:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+
+.nav-address {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 10px;
+
+}
+
+
+.nav-address:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+    padding: 8px;
+
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Address-1 {
+    color: #cccccc;
+    font-size: 0.85rem;
+    padding-left: 23px;
+}
+
+.Address-2 {
+    font-weight: bold;
+    font-size: 0.85rem;
 }
