@@ -13,7 +13,7 @@
     /* vertically center items */
     padding: 0 15px;
     /* add some side spacing */
-    /* justify-content: space-evenly;*/
+    justify-content: space-evenly;
 }
 
 .nav-logo {
@@ -129,14 +129,16 @@
     /* space between flag and text */
     cursor: pointer;
     margin-left: 20px;
+    padding: 2px;
+    /* set a consistent padding */
+    border: 1.5px solid transparent;
+    /* invisible border initially */
 }
 
 .language-selector:hover {
     border: 1px solid white;
     cursor: pointer;
-    width: 50px;
-    height: 45px;
-    justify-content: center;
+    height: 50px;
 }
 
 .language-selector.fi {
@@ -161,6 +163,81 @@
     margin-left: 0px;
     /* small spacing */
     position: relative;
-    top: 5px;
+    top: 7px;
     cursor: pointer;
+}
+
+.accounts {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4px;
+    /* set a consistent padding */
+    border: 1.5px solid transparent;
+    /* invisible border initially */
+}
+
+.accounts:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+
+}
+
+.signin-text1 {
+    font-size: 12px;
+}
+
+.signin-text2 {
+    font-size: 14px;
+}
+
+.returns-and-order {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px 10px;
+    /* set a consistent padding */
+    border: 1.5px solid transparent;
+    /* invisible border initially */
+}
+
+.returns-and-order:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+
+.return-text {
+    font-size: 11px;
+}
+
+.orders-text {
+    font-size: 13px;
+}
+
+.cart {
+    display: flex;
+    border: 1.5px solid transparent;
+
+}
+
+.text {
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+
+}
+
+.image {
+    color: #F8BD19;
+    font-size: 30px;
+}
+
+.cart:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+
+
+    justify-content: center;
 }
