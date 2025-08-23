@@ -121,4 +121,46 @@
     margin-left: 5px;
 }
 
-.language-selector {}
+.language-selector {
+    display: flex;
+    align-items: center;
+    /* keeps flag & text vertically centered */
+    gap: 5px;
+    /* space between flag and text */
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.language-selector:hover {
+    border: 1px solid white;
+    cursor: pointer;
+    width: 50px;
+    height: 45px;
+    justify-content: center;
+}
+
+.language-selector.fi {
+    width: 25px;
+    /* fix flag size */
+    height: 15px;
+    padding-left: 10px;
+
+}
+
+.lang-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    /* adjust to your navbar */
+    top: 5px;
+}
+
+.arrow {
+    font-size: 1 rem;
+    /* smaller arrow */
+    margin-left: 0px;
+    /* small spacing */
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
