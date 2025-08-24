@@ -297,12 +297,16 @@
 }
 
 .fashion-box {
+    padding: 15px;
     width: 23%;
     height: 400px;
-    padding: 15px;
     border: 1px solid #ddd;
     background: #fff;
     font-family: Arial, sans-serif;
+    position: relative;
+    bottom: 350px;
+    left: 20px;
+    cursor: pointer;
 }
 
 .fashion-box h2 {
@@ -315,11 +319,15 @@
     grid-template-columns: 1fr 1fr;
     /* 2 columns */
     gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .card img {
-    width: 100%;
+    position: relative;
+    width: 120px;
     display: block;
+    height: 100px;
 }
 
 .card p {
@@ -328,6 +336,8 @@
 }
 
 .fashion-box a {
+    position: relative;
+    top: 20px;
     display: block;
     margin-top: 10px;
     color: #0073e6;
