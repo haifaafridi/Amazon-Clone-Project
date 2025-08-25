@@ -560,3 +560,20 @@ body {
     background-color: #E3E6E6;
     margin: 0;
 }
+
+.foot-panel {
+    background-color: #3b4c5e;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    font-size: small;
+    font-weight: bold;
+}
