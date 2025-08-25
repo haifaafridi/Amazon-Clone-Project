@@ -22,9 +22,6 @@ It’s (almost) **better than Amazon itself (lol)** ✨
 ![Clone Screenshot](/Images/ss2.png)
 
 
-![Clone Screenshot](/Images/ss3.jpg)
-
-
 ![Clone Screenshot](/Images/ss4.png)
 
 
