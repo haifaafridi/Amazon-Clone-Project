@@ -15,18 +15,8 @@ It’s (almost) **better than Amazon itself (lol)** ✨
 
 ---
 
-## 📸 Screenshots
-👉 Add your screenshots here to show how the project looks.  
-- Place **full-page screenshots** here  
-- Also add **close-ups** of navbar, hero section, and footer  
-
-Example layout in README:
-
-
-
-yaml
-Copy
-Edit
+## 📸 How the clones looks :
+![Clone Screenshot](/Images/ss1.png)
 
 ---
 
