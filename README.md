@@ -17,6 +17,12 @@ It’s (almost) **better than Amazon itself (lol)** ✨
 
 ## 📸 How the clones looks :
 ![Clone Screenshot](/Images/ss1.png)
+![Clone Screenshot](/Images/ss2.png)
+![Clone Screenshot](/Images/ss3.png)
+![Clone Screenshot](/Images/ss4.png)
+![Clone Screenshot](/Images/ss5.png)
+![Clone Screenshot](/Images/ss6.png)
+
 
 ---
 
