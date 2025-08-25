@@ -577,3 +577,26 @@ body {
     font-size: small;
     font-weight: bold;
 }
+
+.foot-panel2 {
+    display: flex;
+    background-color: #222E3E;
+    color: white;
+    height: 400px;
+    justify-content: space-evenly;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 20px;
+    color: #DDDDDD;
+}
+
+ul {
+    margin: 40px;
+}
+
+ul p {
+    font-weight: bold;
+}
